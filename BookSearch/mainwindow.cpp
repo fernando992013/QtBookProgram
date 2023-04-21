@@ -10,6 +10,7 @@
 #include <QTableWidgetItem>
 
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), logFile(new QFile("booksearch.log"))
 {
@@ -315,6 +316,5 @@ void MainWindow::on_btnAddtoCart_clicked()
     ui->statusbar->showMessage(QStringLiteral("Cart (%1)").arg(selectedBooks.size()));
 
 }
-
 
 
