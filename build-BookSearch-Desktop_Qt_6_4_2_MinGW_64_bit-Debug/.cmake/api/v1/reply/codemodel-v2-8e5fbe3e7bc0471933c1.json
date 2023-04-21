@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7783a3a9767802f601f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BookStoreProgram",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookStoreProgram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookStoreProgram-Debug-3e3ca64a83259833f114.json",
+					"name" : "BookStoreProgram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookStoreProgram_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookStoreProgram_autogen-Debug-5c8193cdcd0fb71187d6.json",
+					"name" : "BookStoreProgram_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookStoreProgram_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookStoreProgram_autogen_timestamp_deps-Debug-9c4e5f878aab47bc4d1b.json",
+					"name" : "BookStoreProgram_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/flaki/Downloads/QT-Book-Search-Beta/QT-Book-Search-Beta/build-BookSearch-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/flaki/Downloads/QT-Book-Search-Beta/QT-Book-Search-Beta/BookSearch"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
